@@ -1,0 +1,158 @@
+.artisticIdentity {
+  font-weight: 800;
+  color: var(--color-mediumslateblue);
+}
+
+.personalizeYourArtisticContainer {
+  position: absolute;
+  top: 173px;
+  left: 39px;
+  display: inline-block;
+  width: 100%;
+  height: 68px;
+  font-family: var(--font-playfair-display);
+}
+
+.customizeYourAvatar {
+  position: absolute;
+  top: 264px;
+  left: 41px;
+  font-size: var(--font-size-15xl);
+  font-weight: 300;
+  text-align: justify;
+  display: inline-block;
+  width: calc(100% - 82px); /* Adjust the width as needed */
+  max-height: 882px; /* Adjust the max-height as needed */
+  overflow: auto; /* Add overflow: auto to enable scrolling if needed */
+}
+
+
+.groupChild {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-plum);
+  width: 100%;
+  height: 134px;
+}
+
+.aboutUs,
+.home,
+.signIn,
+.whyUs {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 49px;
+  left: 490px;
+  font-weight: 700;
+  color: inherit;
+}
+
+.aboutUs,
+.signIn,
+.whyUs {
+  top: 48px;
+  left: 594px;
+}
+
+.signIn,
+.whyUs {
+  top: 49px;
+  left: 731px;
+}
+
+.signIn {
+  left: 864px;
+}
+
+.groupItem {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  border-radius: 50%;
+  width: 112px;
+  height: 108px;
+  object-fit: cover;
+}
+
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 134px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+
+.customizeAvatar {
+  position: relative;
+  background-color: var(--color-gray);
+  width: 100%;
+  height: 1350px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-lightgray-200);
+  font-family: var(--font-inter);
+}
+
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; /* Adjust the margin as needed */
+}
+
+.customAvatarGeneratorContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .rectangleParent {
+    left: 0;
+    width: 100%;
+  }
+  
+  .aboutUs,
+  .home,
+  .signIn,
+  .whyUs {
+    left: 20px;
+  }
+  
+  .signIn {
+    left: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .rectangleParent {
+    left: 20px;
+    width: auto;
+    right: 20px;
+    margin: 0;
+  }
+  
+  .aboutUs,
+  .home,
+  .signIn,
+  .whyUs {
+    left: auto;
+  }
+  
+  .signIn {
+    left: auto;
+    right: 20px;
+  }
+}

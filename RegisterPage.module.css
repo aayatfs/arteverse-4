@@ -1,0 +1,247 @@
+.aboutUs,
+.whyUs {
+  position: absolute;
+  top: 55px;
+  left: 479px;
+}
+.whyUs {
+  top: 54px;
+  left: 748px;
+  cursor: pointer;
+}
+.guide,
+.tuitionFees {
+  position: absolute;
+  top: 55px;
+  left: 1012px;
+}
+.tuitionFees {
+  left: 1248px;
+}
+.registerPageChild {
+  position: absolute;
+  top: 152px;
+  left: 644px;
+  border-radius: var(--br-31xl);
+  width: 846px;
+  height: 805px;
+}
+.registerPageItem {
+  position: absolute;
+  top: 723px;
+  left: 900px;
+  border-radius: var(--br-11xl);
+  width: 493px;
+  height: 96px;
+}
+.register {
+  position: absolute;
+  top: 152px;
+  left: 977px;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-playfair-display);
+  color: var(--color-midnightblue);
+  text-align: center;
+  display: inline-block;
+  width: 317px;
+  height: 83px;
+}
+.rectangleInput,
+.registerPageChild1,
+.registerPageChild2,
+.registerPageInner {
+  border: 1px solid var(--color-gainsboro);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 257px;
+  left: 901px;
+  border-radius: var(--br-11xl);
+  box-sizing: border-box;
+  width: 493px;
+  height: 96px;
+}
+.rectangleInput,
+.registerPageChild1,
+.registerPageChild2 {
+  border: 1px solid var(--color-lightgray-100);
+  top: 374px;
+}
+.registerPageChild1,
+.registerPageChild2 {
+  top: 489px;
+}
+.registerPageChild2 {
+  top: 604px;
+}
+.alreadyHaveAn,
+.register1,
+.signIn {
+  position: absolute;
+  font-size: var(--font-size-11xl);
+  color: var(--color-midnightblue);
+  text-align: center;
+  display: inline-block;
+}
+.alreadyHaveAn {
+  top: 847px;
+  left: 900px;
+  width: 464px;
+  height: 34px;
+}
+.register1,
+.signIn {
+  cursor: pointer;
+}
+.signIn {
+  top: 895px;
+  left: 1009px;
+  width: 246px;
+  height: 38px;
+  text-shadow: 0 4px 4px #dec4ff;
+}
+.register1 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 751px;
+  left: 1072px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  width: 152px;
+  height: 39px;
+}
+.untitledDesign3RemovebgPreIcon {
+  position: absolute;
+  top: 501px;
+  left: 25px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.asAdmin,
+.radioButton3 {
+  position: absolute;
+  height: 20px;
+}
+.asAdmin {
+  top: 3px;
+  left: 39px;
+  display: inline-block;
+  width: 115px;
+}
+.radioButton3 {
+  cursor: pointer;
+  top: 20px;
+  left: 0;
+  width: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.radioButton,
+.radioButton1 {
+  position: absolute;
+  top: 545px;
+  left: 681px;
+  width: 154px;
+  height: 23px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}
+.radioButton1 {
+  top: 509px;
+}
+.asStudent {
+  position: absolute;
+  top: 5px;
+  left: 39px;
+  display: inline-block;
+  width: 115px;
+  height: 20px;
+}
+.radioButton11 {
+  cursor: pointer;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.radioButton4 {
+  position: absolute;
+  top: 469px;
+  left: 681px;
+  width: 154px;
+  height: 25px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}
+.frameChild,
+.home {
+  text-decoration: none;
+  position: absolute;
+}
+.frameChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-plum);
+  width: 1512px;
+  height: 134px;
+}
+.home {
+  top: 49px;
+  left: 490px;
+  font-weight: 700;
+  color: inherit;
+  cursor: pointer;
+}
+.aboutUs1,
+.signIn1,
+.whyUs1 {
+  position: absolute;
+  top: 48px;
+  left: 594px;
+  cursor: pointer;
+}
+.signIn1,
+.whyUs1 {
+  top: 49px;
+  left: 731px;
+}
+.signIn1 {
+  left: 864px;
+}
+.frameItem {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  border-radius: 50%;
+  width: 112px;
+  height: 108px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 134px;
+}
+.registerPage {
+  position: relative;
+  background-color: var(--color-gray);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

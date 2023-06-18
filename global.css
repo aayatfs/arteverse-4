@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-playfair-display: "Playfair Display";
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-45xl: 64px;
+  --font-size-15xl: 34px;
+  --font-size-31xl: 50px;
+  --font-size-lg: 18px;
+  --font-size-11xl: 30px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-gray-100: #808080;
+  --color-gray: #111223;
+  --color-midnightblue: #301e65;
+  --color-black: #000;
+  --color-plum: #dec4ff;
+  --color-lightgray-100: #d5d5d5;
+  --color-lightgray-200: #d7cece;
+  --color-mediumslateblue: #9671ff;
+  --color-white: #fff;
+  --color-gainsboro: #dcd9d9;
+
+  /* border radiuses */
+  --br-11xl: 30px;
+  --br-31xl: 100px;
+}
